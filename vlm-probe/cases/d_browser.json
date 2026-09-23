@@ -1,0 +1,133 @@
+{
+ "hwnd": 4653623,
+ "title": "浏览器",
+ "note": "synthetic: d_browser.png + this listing (athand numbers scattered)",
+ "at": "2026-09-22 23:59:00",
+ "rect": [
+  0,
+  0,
+  2240,
+  1400
+ ],
+ "state": "normal",
+ "frame": "d_browser.png",
+ "targets": [
+  {
+   "n": 21,
+   "name": "Back",
+   "cls": "text",
+   "rect": [
+    60,
+    60,
+    140,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 24,
+   "name": "Forward",
+   "cls": "text",
+   "rect": [
+    150,
+    60,
+    250,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 27,
+   "name": "Reload",
+   "cls": "text",
+   "rect": [
+    260,
+    60,
+    360,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 30,
+   "name": "",
+   "cls": "",
+   "rect": [
+    380,
+    60,
+    1400,
+    88
+   ],
+   "patterns": [],
+   "source": "shape"
+  },
+  {
+   "n": 33,
+   "name": "Bookmark",
+   "cls": "text",
+   "rect": [
+    1410,
+    60,
+    1530,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 36,
+   "name": "Downloads",
+   "cls": "text",
+   "rect": [
+    1540,
+    60,
+    1660,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 39,
+   "name": "Menu",
+   "cls": "text",
+   "rect": [
+    1670,
+    60,
+    1750,
+    88
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 42,
+   "name": "Close tab",
+   "cls": "text",
+   "rect": [
+    1000,
+    10,
+    1130,
+    42
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 45,
+   "name": "",
+   "cls": "",
+   "rect": [
+    60,
+    120,
+    2180,
+    1360
+   ],
+   "patterns": [],
+   "source": "shape"
+  }
+ ]
+}

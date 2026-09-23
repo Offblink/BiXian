@@ -1,0 +1,29 @@
+# --- 原来 client/.gitignore 的规则（客户端不再自带，合并到这里）---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.bixian/
+audit.jsonl
+.venv/
+
+# --- 外层工作区自己的 ---
+# 现役解释器（7.7 GB）；重建配方在 vlm/recipe/
+vlm/.venv/
+# 权重（8 GB 级）；按 docs/ARCHIVE_KEV_TEXT.md 重下
+models/
+# 第三方 clone（kev）；要就自己 clone
+repos/
+# 下载中的分片，和分片旁边的进度条子
+*.part
+*.part.json
+# 每次挑号 / 每次决策生成的编号图（可再生）
+vlm-probe/cases/*.som.png
+vlm-probe/cases/*.marked.png
+# 真机取证件：真实窗口的截图与 listing（含聊天内容、联系方式、桌面布局）——只留本机
+vlm-probe/evidence/
+# 同上：几张真机窗口图，夹具里的其余素材都随仓分发
+vlm-probe/cases/bare.png
+vlm-probe/cases/som.png
+vlm-probe/cases/som_annotated.png

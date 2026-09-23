@@ -1,0 +1,25 @@
+{
+  "named": {
+    "explore": { "threshold": 0.20, "on_fail": "fail_open" },
+    "default": { "threshold": 0.50, "on_fail": "fail_open" },
+    "irreversible": { "threshold": 0.99, "on_fail": "fail_closed" }
+  },
+  "classes": {
+    "read_file": "explore",
+    "score_memory": "explore",
+    "write_file": "default",
+    "stage_commit": "default",
+    "run_command": "irreversible",
+    "send_message": "irreversible",
+    "publish": "irreversible"
+  },
+  "unknown_class": "irreversible",
+
+  "_comment": [
+    "unknown_class MUST stay the strictest policy: forgetting to declare an",
+    "action class has to cost a human question, never an unreviewed action.",
+    "Thresholds are ESTIMATED from the risk-coverage curve on a frozen labelled",
+    "set (evals/ + tools/eval.py), not searched. Re-estimate after any change of",
+    "model or temperature -- that moves the whole curve."
+  ]
+}

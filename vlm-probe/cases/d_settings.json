@@ -1,0 +1,133 @@
+{
+ "hwnd": 4653624,
+ "title": "设置",
+ "note": "synthetic: d_settings.png + this listing (athand numbers scattered)",
+ "at": "2026-09-22 23:59:00",
+ "rect": [
+  0,
+  0,
+  2240,
+  1400
+ ],
+ "state": "normal",
+ "frame": "d_settings.png",
+ "targets": [
+  {
+   "n": 21,
+   "name": "确定",
+   "cls": "text",
+   "rect": [
+    1620,
+    1230,
+    1720,
+    1262
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 24,
+   "name": "取消",
+   "cls": "text",
+   "rect": [
+    1740,
+    1230,
+    1840,
+    1262
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 27,
+   "name": "应用",
+   "cls": "text",
+   "rect": [
+    1500,
+    1230,
+    1600,
+    1262
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 30,
+   "name": "高级设置",
+   "cls": "text",
+   "rect": [
+    90,
+    250,
+    330,
+    282
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 33,
+   "name": "恢复默认",
+   "cls": "text",
+   "rect": [
+    90,
+    300,
+    330,
+    332
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 36,
+   "name": "导入配置",
+   "cls": "text",
+   "rect": [
+    90,
+    350,
+    330,
+    382
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 39,
+   "name": "导出配置",
+   "cls": "text",
+   "rect": [
+    90,
+    400,
+    330,
+    432
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 42,
+   "name": "帮助",
+   "cls": "text",
+   "rect": [
+    90,
+    450,
+    330,
+    482
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 45,
+   "name": "",
+   "cls": "",
+   "rect": [
+    700,
+    250,
+    2000,
+    290
+   ],
+   "patterns": [],
+   "source": "shape"
+  }
+ ]
+}

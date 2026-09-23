@@ -1,0 +1,9 @@
+open the File menu=1
+edit the document=2
+save this document to disk=6
+print the current document=7
+close this window=8
+find the next occurrence of the search term=5
+replace text in the document=4
+search for text in the document=3
+click into the document body to start typing=9

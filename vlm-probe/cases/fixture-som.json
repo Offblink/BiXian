@@ -1,0 +1,20 @@
+{
+ "hwnd": 2097810,
+ "title": "微信",
+ "note": "synthetic: bare.png (the mock desktop) + this listing; athand numbers are scattered on purpose",
+ "at": "2026-09-22 22:30:00",
+ "rect": [0, 0, 2240, 1400],
+ "state": "normal",
+ "frame": "bare.png",
+ "targets": [
+  {"n": 27, "name": "微信", "cls": "text", "rect": [70, 60, 300, 130], "patterns": [], "source": "ocr"},
+  {"n": 31, "name": "搜索", "cls": "text", "rect": [360, 150, 620, 210], "patterns": [], "source": "ocr"},
+  {"n": 4, "name": "Blinvo", "cls": "text", "rect": [360, 300, 700, 360], "patterns": [], "source": "ocr"},
+  {"n": 12, "name": "发送", "cls": "text", "rect": [1700, 1230, 1900, 1310], "patterns": [], "source": "ocr"},
+  {"n": 9, "name": "发送文件", "cls": "text", "rect": [1420, 980, 1700, 1050], "patterns": [], "source": "ocr"},
+  {"n": 44, "name": "撤回", "cls": "text", "rect": [1980, 520, 2140, 580], "patterns": [], "source": "ocr"},
+  {"n": 38, "name": "家庭群", "cls": "text", "rect": [360, 440, 700, 500], "patterns": [], "source": "ocr"},
+  {"n": 41, "name": "文件传输助手", "cls": "text", "rect": [360, 580, 760, 640], "patterns": [], "source": "ocr"},
+  {"n": 52, "name": "写消息", "cls": "", "rect": [360, 1180, 1700, 1300], "patterns": [], "source": "shape"}
+ ]
+}

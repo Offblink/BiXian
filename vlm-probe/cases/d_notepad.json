@@ -1,0 +1,133 @@
+{
+ "hwnd": 4653623,
+ "title": "Notepad++",
+ "note": "synthetic: d_notepad.png + this listing (athand numbers scattered)",
+ "at": "2026-09-22 23:59:00",
+ "rect": [
+  0,
+  0,
+  2240,
+  1400
+ ],
+ "state": "normal",
+ "frame": "d_notepad.png",
+ "targets": [
+  {
+   "n": 21,
+   "name": "File",
+   "cls": "text",
+   "rect": [
+    60,
+    60,
+    150,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 24,
+   "name": "Edit",
+   "cls": "text",
+   "rect": [
+    160,
+    60,
+    250,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 27,
+   "name": "Search",
+   "cls": "text",
+   "rect": [
+    260,
+    60,
+    380,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 30,
+   "name": "Replace",
+   "cls": "text",
+   "rect": [
+    390,
+    60,
+    520,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 33,
+   "name": "Find Next",
+   "cls": "text",
+   "rect": [
+    530,
+    60,
+    680,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 36,
+   "name": "Save",
+   "cls": "text",
+   "rect": [
+    740,
+    60,
+    830,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 39,
+   "name": "Print",
+   "cls": "text",
+   "rect": [
+    840,
+    60,
+    930,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 42,
+   "name": "Close",
+   "cls": "text",
+   "rect": [
+    940,
+    60,
+    1030,
+    92
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 45,
+   "name": "",
+   "cls": "",
+   "rect": [
+    60,
+    150,
+    2180,
+    1360
+   ],
+   "patterns": [],
+   "source": "shape"
+  }
+ ]
+}

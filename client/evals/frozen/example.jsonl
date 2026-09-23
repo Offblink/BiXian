@@ -1,0 +1,5 @@
+{"state": "Ticket: I was charged twice for the same order.", "type": "noul", "question": "Is this ticket about billing?", "truth": 1}
+{"state": "Ticket: the app shows a white screen after login.", "type": "noul", "question": "Is this ticket about billing?", "truth": 0}
+{"state": "User: convert this CSV to JSON", "type": "choice", "question": "Which tool should handle this turn?", "criteria": {"run_command": "shell and scripts", "read_file": "read a file", "browser": "drive a web page"}, "truth": "run_command"}
+{"state": "Window: notepad, unsaved changes present", "type": "choice", "question": "Which control saves this document?", "criteria": {"save": "save button", "print": "print button", "close": "close button"}, "truth": "save"}
+{"state": "A memory that mentions the exact file we are editing.", "type": "score", "question": "How relevant is this memory?", "criteria": ["unrelated", "weakly related", "related", "strongly related"], "truth": 3}

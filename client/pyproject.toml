@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bixian"
+version = "0.0.1"
+description = "Bi-Xian (笔仙) - one-line, auditable, thresholdable decisions for agents"
+readme = { text = "Bi-Xian client: one-line, auditable, thresholdable decisions for agents.\nDocs: ../docs/CLIENT.md (design handoff: ../client/docs/design-handoff.md).", content-type = "text/markdown" }
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+decide = "bixian.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

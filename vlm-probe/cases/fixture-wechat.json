@@ -1,0 +1,146 @@
+{
+ "hwnd": 2097810,
+ "title": "微信",
+ "note": "self-drawn (Qt): read the frame, numbers are the tool face",
+ "at": "2026-09-22 22:30:00",
+ "rect": [
+  0,
+  0,
+  1600,
+  1000
+ ],
+ "state": "normal",
+ "frame": "C:\\tmp\\athand\\frame.png",
+ "targets": [
+  {
+   "n": 1,
+   "name": "微信",
+   "cls": "text",
+   "rect": [
+    60,
+    40,
+    130,
+    70
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 2,
+   "name": "搜索",
+   "cls": "text",
+   "rect": [
+    200,
+    80,
+    300,
+    110
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 3,
+   "name": "Blinvo",
+   "cls": "text",
+   "rect": [
+    200,
+    180,
+    300,
+    210
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 4,
+   "name": "文件传输助手",
+   "cls": "text",
+   "rect": [
+    200,
+    230,
+    380,
+    260
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 5,
+   "name": "家庭群",
+   "cls": "text",
+   "rect": [
+    200,
+    280,
+    320,
+    310
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 6,
+   "name": "发送",
+   "cls": "text",
+   "rect": [
+    1200,
+    900,
+    1280,
+    940
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 7,
+   "name": "发送文件",
+   "cls": "text",
+   "rect": [
+    1000,
+    700,
+    1120,
+    740
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 8,
+   "name": "撤回",
+   "cls": "text",
+   "rect": [
+    1400,
+    400,
+    1470,
+    440
+   ],
+   "patterns": [],
+   "source": "ocr"
+  },
+  {
+   "n": 9,
+   "name": "",
+   "cls": "",
+   "rect": [
+    500,
+    950,
+    900,
+    990
+   ],
+   "patterns": [],
+   "source": "shape"
+  },
+  {
+   "n": 10,
+   "name": "家庭群公告",
+   "cls": "text",
+   "rect": [
+    1450,
+    120,
+    1580,
+    160
+   ],
+   "patterns": [],
+   "source": "ocr"
+  }
+ ]
+}

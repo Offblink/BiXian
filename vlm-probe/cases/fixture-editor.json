@@ -1,0 +1,120 @@
+{
+ "hwnd": 4653616,
+ "title": "Notepad++",
+ "note": "a11y: 22 candidates",
+ "at": "2026-09-22 22:30:00",
+ "rect": [
+  100,
+  100,
+  1500,
+  900
+ ],
+ "state": "normal",
+ "frame": "C:\\tmp\\athand\\frame.png",
+ "targets": [
+  {
+   "n": 1,
+   "name": "File",
+   "cls": "MenuItem",
+   "rect": [
+    110,
+    130,
+    150,
+    155
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 2,
+   "name": "Edit",
+   "cls": "MenuItem",
+   "rect": [
+    155,
+    130,
+    195,
+    155
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 3,
+   "name": "Search",
+   "cls": "MenuItem",
+   "rect": [
+    200,
+    130,
+    250,
+    155
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 4,
+   "name": "Close",
+   "cls": "Button",
+   "rect": [
+    1440,
+    120,
+    1470,
+    150
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 5,
+   "name": "Save",
+   "cls": "Button",
+   "rect": [
+    1300,
+    120,
+    1340,
+    150
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 6,
+   "name": "Print",
+   "cls": "Button",
+   "rect": [
+    1350,
+    120,
+    1390,
+    150
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 7,
+   "name": "Replace",
+   "cls": "MenuItem",
+   "rect": [
+    300,
+    200,
+    360,
+    225
+   ],
+   "patterns": [],
+   "source": "a11y"
+  },
+  {
+   "n": 8,
+   "name": "Find Next",
+   "cls": "Button",
+   "rect": [
+    400,
+    250,
+    470,
+    275
+   ],
+   "patterns": [],
+   "source": "a11y"
+  }
+ ]
+}

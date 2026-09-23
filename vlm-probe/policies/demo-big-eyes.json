@@ -1,0 +1,19 @@
+{
+  "named": {
+    "explore": {
+      "threshold": 0.2,
+      "on_fail": "fail_open"
+    },
+    "default": {
+      "threshold": 0.99999,
+      "on_fail": "fail_open"
+    },
+    "irreversible": {
+      "threshold": 0.99,
+      "on_fail": "fail_closed"
+    }
+  },
+  "_comment": [
+    "DEMO: a call site may raise the bar above the plain boundary. Below it the answer is UNDECIDED -- never NO -- which is exactly what hands the picture to tier 2."
+  ]
+}
