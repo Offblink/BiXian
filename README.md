@@ -43,8 +43,21 @@
    python scripts/fetch_ms_model.py Qwen/Qwen3-VL-4B-Instruct -d models/qwen3vl-4b
    ```
 
-   脚本只用标准库：大分片自己开 8 条连接，进度写在 `<文件>.part` 旁边，断了重跑接着下，
-   并且逐个文件核对 sha256。
+   这个脚本是"仓库形状"的：它先问 ModelScope 要这个仓的文件清单，再逐个文件核对官方公布的 sha256，
+   大分片自己开 8 条连接。只用标准库，进度写在同一目录（`.part` 和它旁边的 `.part.json`，别手删），
+   断了重跑就接着下。
+
+   要下**别的大文件**（一次一个链接，不限于模型仓），更顺手的是同一个作者写的下载器
+   [Flower](https://github.com/Offblink/Flower)：
+
+   ```powershell
+   python -m flower <链接> -d models -n 16 --no-proxy    # pip install -e . 之后命令就是 flower
+   ```
+
+   多连接自适应（`-n` 是上限不是目标，从 2 条起步）、跨次断点续传（进程被杀、断网、Ctrl-C 都能接着下）、
+   可选的 `--sha256` 取完核对、`--json` 每行一个进度事件给脚本读。
+   退出码就是结论：`0` 落地、`1` 失败、`2` 校验不符、`130` 被中断。
+   代理要么 `--proxy 127.0.0.1:7897`、要么 `--no-proxy`，都不给就用它在图形界面里存的那个开关 —— 脚本里写死一个。
 
 4. **torch 要用 cu128 的轮子**。PyPI 上 Windows 的 `torch` 是 CPU 版，装上会跑成"模型很弱"的样子；
    换法见 `docs/BIXIAN_KEV_NOTES.md`。
